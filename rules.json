@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "updated": "2026-09-27",
+  "notes": "Ad detection rules. Bundled with the extension and also fetched from GitHub so detection can be fixed without a store update. Bump 'version' on every change. Hosts must stay within the extension's host permissions (*.hotstar.com, *.jiohotstar.com).",
+  "adPings": [
+    {
+      "id": "hotstar-ct-impression",
+      "host": "(^|\\.)(jio)?hotstar\\.com$",
+      "path": "/track/ct_impression|impression",
+      "nameParams": ["adName", "ad_name"]
+    }
+  ],
+  "durationParams": ["duration", "adDuration", "ad_duration", "dur"],
+  "durationPatterns": [
+    "(\\d{1,3})s(?:Eng(?:lish)?|Hin(?:di)?)",
+    "(?:HIN|ENG|HINDI|ENGLISH)[^\\d]*(\\d{1,3})",
+    "(?:^|[^a-z0-9])(\\d{1,3})\\s*(?:s|sec|secs|seconds)(?:[^a-z]|$)"
+  ],
+  "maxAdSeconds": 180
+}

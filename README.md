@@ -1,14 +1,14 @@
 # Cricket Ad Muter: support
 
-This is the public home of **Cricket Ad Muter**, a Chrome extension that mutes, or turns down, ad breaks during live cricket on JioHotstar, and brings the sound back the moment play resumes.
+This is the public home of **Cricket Ad Muter**, a Chrome extension that mutes, or turns down, ad breaks during live cricket on JioHotstar and SonyLIV, and brings the sound back the moment play resumes.
 
 ## Found a problem?
 
-[Open an issue](https://github.com/absinha86/cricket-ad-muter-support/issues/new). The quickest way is the **Report a problem** button in the extension's popup (under **Advanced**). It fills in the details that help, like the extension version and the last ads it detected, and you can review everything before submitting.
+[Open an issue](https://github.com/absinha86/cricket-ad-muter-support/issues/new). The quickest way is the **Report a problem** button in the extension's popup (under **⚙ Settings**; in version 1.0, under **Advanced**). It fills in the details that help, like the extension version and the last ads it detected, and you can review everything before submitting.
 
 Helpful to include:
 - what happened (an ad played with sound, or the match stayed muted, and for roughly how long)
-- whether it was a live match or something else
+- which site (JioHotstar or SonyLIV), and whether it was a live match or something else
 
 ## What's in this repo
 
@@ -19,4 +19,4 @@ Helpful to include:
 
 ---
 
-Cricket Ad Muter is an independent project and is not affiliated with, endorsed by, or sponsored by JioStar or JioHotstar.
+Cricket Ad Muter is an independent project and is not affiliated with, endorsed by, or sponsored by JioStar, JioHotstar, Sony Pictures Networks India or SonyLIV.
